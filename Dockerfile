@@ -5,13 +5,14 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package.json yarn.lock ./
-RUN yarn install --ignore-scripts
-RUN npm install -g node-gyp
+RUN yarn 
 
-RUN npm install bcrypt
+
+RUN yarn add bcrypt
 
 # 👇️ if you use TypeScript
-RUN npm install --save-dev @types/bcryptjs
+RUN yarn add --save-dev @types/bcryptjs
+RUN yarn add node-gyp && yarn add bcrypt --force --build-from-source
 # Copy bcrypt package from host
 # RUN cp -r node_modules/bcrypt /usr/src/app/node_modules
 
