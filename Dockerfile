@@ -16,6 +16,6 @@ RUN npm install --save-dev @types/bcryptjs
 # RUN cp -r node_modules/bcrypt /usr/src/app/node_modules
 
 # Copy app source code
-COPY ./src .
+COPY . .
 
 CMD ["yarn", "start"]
