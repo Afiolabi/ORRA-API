@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package.json yarn.lock ./
-RUN yarn 
+RUN yarn --ignore-scripts
 
 
 RUN yarn add bcrypt
