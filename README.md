@@ -7,3 +7,4 @@ tsc --init
   "outDir": "./dist", 
   ,
   "includes":["src"]
+   // "start": "ts-node src/app.ts",

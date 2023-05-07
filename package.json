@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/app.ts",
+     "start": "node dist/app.js",
+   
     "dev": "nodemon dist/app.js",
     "compile": "tsc -w",
     "build": "tsc"
