@@ -46,8 +46,8 @@ var corsOptions = {
   credentials: true,
   methods: "GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS",
 };
-app.use(cors(corsOptions));
-// app.use(cors());
+// app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
