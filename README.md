@@ -1,10 +1,11 @@
 # Ojoolu_Restaurants_Review_App_Backend
 API for Ojoolu Restaurants Review App
-yarn istall
-tsc --init
-"target": "es2016", => "target": "es2020", 
- "rootDir": "./src",
-  "outDir": "./dist", 
-  ,
-  "includes":["src"]
-   // "start": "ts-node src/app.ts",
+
+#Set up
+- yarn istall
+- tsc --init
+- edit tsconfig.json file thus: "target": "es2016" => "target": "es2020" 
+  - "rootDir": "./src",
+  - "outDir": "./dist", 
+  -  add "includes":["src"]
+- add start command to package.json file thus: start": "ts-node src/app.ts",
