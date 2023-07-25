@@ -1,4 +1,4 @@
-# Ojoolu_Restaurants_Review_App_Backend
+# Ojoolu_Restaurants_Review_App-API
 API for Ojoolu Restaurants Review App
 
 #Set up
